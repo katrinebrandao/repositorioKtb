@@ -1,0 +1,156 @@
+\documentclass[]{osa-supplemental-document}
+\setboolean{shortarticle}{false}
+\title{A UTILIZAÇÃO DO WOLFRAM | ALPHA NO DESENVOLVIMENTO DO PENSAMENTO ALGÉBRICO NOS ANOS FINAIS DO FUNDAMENTALII }
+\author{Katrine Pereira Brandao} %leave this blank
+%% DO NOT ADD AUTHOR INFORMATION HERE; IT WILL BE ADDED DURING PRODUCTION
+
+\usepackage{graphicx}
+
+
+\begin{abstract}
+Este trabalho pretende agrupar elementos que colaboram para o entendimento e prática do pensamento algébrico nos anos finais do ensino fundamental II. É uma pesquisa qualitativa caracterizada como documental, a qual faz inicialmente a analise das orientações contidas no Parâmetro Curricular Nacional (PCN), no que diz respeito ao ensino da álgebra nos anos finais do ensino fundamental. Posteriormente sugere o uso de recursos que possam contribuir com educandos e alunos. A ferramenta em questão é o Wolframalpha, tendo seu acesso de forma virtual e gratuita. O site dispõe de opções que podem ser utilizadas via aplicativo ou web. Além da garantia de uma via para autonomia do aprendizado, e a resolução de problemas.
+
+PALAVRAS-CHAVE: Pensamento algébrico, Parâmetro Curricular Nacional, Wolframalpha. 
+\end{abstract}
+
+\setboolean{displaycopyright}{false} %copyright statement should not display in the  supplemental document
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+O tema em questão utiliza o pensamento algébrico como foco e objeto principal de pesquisa. De forma a elucidar ferramentas de apoio à lacuna existente, no que consiste nas demandas dos alunos nos anos finais do ensino fundamental.  
+Conforme a BNCC (BRASIL, 2018), integram o pensamento algébrico competências, como: identificar regularidades e padrões de sequências numéricas e não numéricas, compreender e utilizar a simbologia algébrica, além da capacidade de abstração e generalização como ferramenta para resolver problemas.
+Na generalização matemática, o conceito algébrico é tratado como instrumento de transformação simbólica e imaginária em realidade. Por meio da visão, descrição e escrita. Para o autor, o desenvolvimento do raciocínio algébrico é compreendido como um todo mais amplo que envolve “o processo da atividade algébrica, desde as primeiras características do pensamento algébrico até a utilização de uma linguagem simbólica para estabelecer generalizações” (CYRINO; OLIVEIRA, 2011, p. 103)
+O objetivo deste trabalho, consiste em oferecer um preparo mínimo ao aluno. Para que o primeiro contato com a álgebra seja menos frustrante. 
+Tendo em vista a experiência da disciplina estagio obrigatório I, onde pude identificar a dificuldade dos alunos do 7º ano regular, com a simples tarefa de substituição de letras por números. 
+Sendo assim, o objetivo específico deste trabalho visa mostrar meios que conduzam o aluno na melhoria da fixação de exercícios que englobam a pré-álgebra. Para que quando o mesmo venha a ter contato com a resolução de problemas, o aprendizado seja mais conciso. Buscando dar relevância ao uso da informática como aliada no estudo, tanto para o professor quanto para o aluno. O aplicativo Wolfram Problem Generator oferece ampla estrutura de exercícios em tempo real, além de listas com respostas. Na página inicial conta com o recurso de resolução de questões, incluindo o passo a passo e dicas. 
+Desta forma, seu uso privilegia a autonomia do aprendizado,  mais dinâmica no estudo e ensino da matemática.
+.
+
+
+\section{A BNCC E O PCN - ENSINO FUNDAMENTAL (6º AO 9º ANO) }
+
+A base nacional comum curricular, busca garantir que a qualidade do conteúdo esteja minimamente em equilíbrio em todo território nacional. A (BNCC) define que, o principal objetivo é ser a balizadora da qualidade da educação no País por meio do estabelecimento de um patamar de aprendizagem e desenvolvimento a que todos os alunos têm direito.
+
+Os parâmetros curriculares nacionais, funcionam como ferramenta de apoio para direcionar cada disciplina em específico. (MEC-BNCC) Os Parâmetros Curriculares Nacionais nascem da necessidade de se construir uma referência curricular nacional para o ensino fundamental que possa ser discutida e traduzida em propostas regionais nos diferentes estados e municípios brasileiros, em projetos educativos nas escolas e nas salas de aula.
+Em termos de propósitos quanto à matemática o PCN, propõe novo enfoque para o tratamento da álgebra, apresentando-a incorporada aos demais blocos de conteúdos, privilegiando o desenvolvimento do pensamento algébrico e não o exercício mecânico do cálculo.
+.
+
+
+
+
+
+\section{PENSAMENTO ALGÉBRICO}
+
+A matemática exige que seus conceitos sejam exercitados de forma progressiva, para que o conteúdo mais avançado seja absorvido o mais conciso possível. Porém existem desafios na trajetória do fundamental, como o seguinte citado no (pcn), professores que, na tentativa de tornar mais significativa a aprendizagem da álgebra, simplesmente deslocam para o ensino fundamental conceitos que tradicionalmente eram tratados no ensino médio com uma abordagem excessivamente formal de funções. Convém lembrar que essa abordagem não é adequada a este grau de ensino.
+O presente capítulo busca balancear tais desafios, através do uso da tecnologia e dos conceitos e regras usualmente conhecidos. 
+
+O diagrama 1. sugere cinco fases triviais para o desenvolvimento do pensamento algébrico. Nas caixinhas de cada fase, foram escolhidos assuntos de maior relevância inerente à etapa.
+A autora fez uso do software bizagi modeler para explanar de forma visual a ideia em questão.
+
+
+
+
+\includegraphics[scale=.4]{Diagrama1.jpg}
+
+
+
+\subsection*{Naming Convention for Countable Items}
+
+\begin{condenseditemize}
+\item[] Algorithm S1
+\item[] Equation (S1)
+\item[] Figure S1
+\item[] Media S1
+\item[] Table S1
+\end{condenseditemize}
+
+
+\section{Figures and Tables}
+Figures and Tables should be labeled and referenced in the standard way using the \verb|\label{}| and \verb|\ref{}| commands.
+
+\subsection{Sample Figure}
+
+Figure \ref{fig:false-color} shows an example figure.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\includegraphics[width=.6\linewidth]{sample}}
+\caption{False-color image, where each pixel is assigned to one of seven reference spectra.}
+\label{fig:false-color}
+\end{figure}
+
+\subsection{Sample Table}
+
+Table \ref{tab:shape-functions} shows an example table. 
+
+\begin{table}[htbp]
+\centering
+\caption{\bf Shape Functions for Quadratic Line Elements}
+\begin{tabular}{ccc}
+\hline
+local node & $\{N\}_m$ & $\{\Phi_i\}_m$ $(i=x,y,z)$ \\
+\hline
+$m = 1$ & $L_1(2L_1-1)$ & $\Phi_{i1}$ \\
+$m = 2$ & $L_2(2L_2-1)$ & $\Phi_{i2}$ \\
+$m = 3$ & $L_3=4L_1L_2$ & $\Phi_{i3}$ \\
+\hline
+\end{tabular}
+  \label{tab:shape-functions}
+\end{table}
+
+\section{Sample Equation}
+
+Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
+\begin{equation}
+S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
+      = \frac{1}{n}\sum_{i}^{n} X_i
+\label{eq:refname1}
+\end{equation}
+denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
+
+\section{Sample Algorithm}
+
+Algorithms can be included using the commands as shown in algorithm \ref{alg:euclid}.
+
+\begin{algorithm}
+\caption{Euclid’s algorithm}\label{alg:euclid}
+\begin{algorithmic}[1]
+\Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+\State $r\gets a\bmod b$
+\While{$r\not=0$}\Comment{We have the answer if r is 0}
+\State $a\gets b$
+\State $b\gets r$
+\State $r\gets a\bmod b$
+\EndWhile\label{euclidendwhile}
+\State \textbf{return} $b$\Comment{The gcd is b}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\section*{Media}
+
+The supplemental document may contain linked objects such as video, 2D, 3D, and machine-readable data files. Please see the \href{https://opg.optica.org/submit/style/supplementary_materials.cfm}{Author Guidelines for Supplementary Materials} for more information. Such files should be cited in the supplementary document as in the primary document but using the naming convention described above.
+
+\section*{References} 
+
+The supplementary materials document may contain a reference list. The reference list should follow our citation style and should be checked carefully, since staff will not be performing any copyediting. You may add citations manually or use BibTeX. See \cite{Zhang:14}.
+
+Citations that are relevant to the primary manuscript and the supplementary document may be included in both places.
+
+% Bibliography
+\bibliography{sample}
+
+%Manual citation list
+%\begin{thebibliography}{1}
+%\bibitem{Zhang:14}
+%Y.~Zhang, S.~Qiao, L.~Sun, Q.~W. Shi, W.~Huang, %L.~Li, and Z.~Yang,
+ % \enquote{Photoinduced active terahertz metamaterials with nanostructured
+  %vanadium dioxide film deposited by sol-gel method,} Opt. Express \textbf{22},
+  %11070--11078 (2014).
+%\end{thebibliography}
+
+\end{document}
